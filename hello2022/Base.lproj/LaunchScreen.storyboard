@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,12 +13,12 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Hello2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UxL-Nr-LMc">
-                                <rect key="frame" x="149" y="390" width="76" height="33"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="UxL-Nr-LMc">
+                                <rect key="frame" x="121.5" y="432" width="171.5" height="42"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
                                 <color key="textColor" systemColor="systemBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -26,13 +26,8 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="UxL-Nr-LMc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="E4x-tm-yWr"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UxL-Nr-LMc" secondAttribute="trailing" constant="142" id="Qfo-b3-M2k"/>
-                            <constraint firstItem="UxL-Nr-LMc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="VKD-Af-IQX"/>
-                            <constraint firstItem="UxL-Nr-LMc" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="19:120" id="aVX-E0-sHu"/>
-                            <constraint firstItem="UxL-Nr-LMc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="asT-9J-Fp9"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UxL-Nr-LMc" secondAttribute="trailing" constant="136" id="gQ0-Ru-7DO"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UxL-Nr-LMc" secondAttribute="trailing" constant="108" id="jHX-Ko-88Z"/>
+                            <constraint firstItem="UxL-Nr-LMc" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="3Lx-2X-Jou"/>
+                            <constraint firstItem="UxL-Nr-LMc" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="x9i-q0-9WZ"/>
                         </constraints>
                     </view>
                 </viewController>
